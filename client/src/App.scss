@@ -1,0 +1,14 @@
+@use "./utils/variables.scss" as *;
+@use "./utils/mixins.scss" as *;
+
+html, body {
+  background-color: $bg-color;
+  margin: 0;
+  min-width: 360px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
