@@ -22,17 +22,19 @@ Technologies
 - Sequelize
 
 Installation
+You need to have PostgreSQL to run this project!
 - Clone the repository:
 git clone https://github.com/your-username/superhero-database.git
 - Navigate to the project server:
 cd server
 - Install the dependencies:
 npm install
+- In .env file, write your own PORT, DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE, CLIENT_HOST
 - Run the db setup:
 node setup.js
 - Start the server:
 npm start
-- Open new terminal
+- Open a new terminal
 - Navigate to the project client:
 cd client
 - Install the dependencies:
