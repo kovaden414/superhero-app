@@ -22,7 +22,7 @@ Technologies
 - Sequelize
 
 Installation
-You need to have PostgreSQL to run this project!
+- You need to have PostgreSQL to run this project!
 - Clone the repository:
 git clone https://github.com/your-username/superhero-database.git
 - Navigate to the project server:
