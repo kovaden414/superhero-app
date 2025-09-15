@@ -24,7 +24,7 @@ Technologies
 Installation
 - You need to have PostgreSQL to run this project!
 - Clone the repository:
-git clone https://github.com/your-username/superhero-database.git
+git clone https://github.com/your-username/superhero-app.git
 - Navigate to the project server:
 cd server
 - Install the dependencies:
@@ -39,7 +39,7 @@ npm start
 cd client
 - Install the dependencies:
 npm install
-- Start the client
+- Start the client:
 npm run dev
 
 Developed by
