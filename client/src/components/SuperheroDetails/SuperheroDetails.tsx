@@ -72,7 +72,7 @@ export const SuperheroDetails = () => {
           <img
             src={
               superhero?.images?.[0]
-                ? `http://localhost:3005${superhero?.images[0]}`
+                ? `${import.meta.env.VITE_SERVER_URL}${superhero?.images[0]}`
                 : "./no-image.png"
             }
             alt="superhero image"
@@ -123,7 +123,7 @@ export const SuperheroDetails = () => {
               {visibleImages.map((image, index) => (
                 <img
                   key={index}
-                  src={`http://localhost:3005${image}`}
+                  src={`${import.meta.env.VITE_SERVER_URL}${image}`}
                   alt="superhero image"
                   className={styles.SuperheroDetails__heroImage}
                 />

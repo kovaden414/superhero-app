@@ -336,7 +336,7 @@ export const HomePage = () => {
                     <img
                       src={
                         typeof img === "string"
-                          ? `http://localhost:3005${img}`
+                          ? `${import.meta.env.VITE_SERVER_URL}${img}`
                           : URL.createObjectURL(img)
                       }
                       alt="superhero"

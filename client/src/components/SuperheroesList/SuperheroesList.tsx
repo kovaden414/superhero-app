@@ -25,7 +25,7 @@ export const SuperheroesList: React.FC<Props> = ({
               <img
                 src={
                   superhero.images?.[0]
-                    ? `http://localhost:3005${
+                    ? `${import.meta.env.VITE_SERVER_URL}${
                         superhero.images[0]
                       }`
                     : "./no-image.png"
