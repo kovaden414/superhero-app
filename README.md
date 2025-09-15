@@ -29,7 +29,7 @@ git clone https://github.com/your-username/superhero-app.git
 cd server
 - Install the dependencies:
 npm install
-- In .env file, write your own PORT, DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE, CLIENT_HOST
+- Create an .env file and write your own PORT, DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE, CLIENT_HOST
 - Run the db setup:
 node setup.js
 - Start the server:
@@ -39,6 +39,7 @@ npm start
 cd client
 - Install the dependencies:
 npm install
+- Create an .env file and write your own VITE_SERVER_URL
 - Start the client:
 npm run dev
 
